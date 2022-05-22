@@ -36,8 +36,11 @@ public class Рufflepuff extends HogwartsStudents{
         this.honesty = honesty;
     }
 public int getSum() {
-        return industriousness + loyalty + honesty;
+    return industriousness + loyalty + honesty;
 }
+    public int sumPoints() {
+        return super.sumPoints();
+    }
     @Override
     public String  toString() {
         return super.toString() +

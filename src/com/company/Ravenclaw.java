@@ -48,6 +48,9 @@ public class Ravenclaw extends HogwartsStudents{
 public int getSum() {
         return mind + wisdom + wit + creativity;
 }
+    public int sumPoints() {
+        return super.sumPoints();
+    }
     @Override
     public String toString() {
         return super.toString() +

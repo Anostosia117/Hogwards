@@ -47,6 +47,9 @@ public class HogwartsStudents {
     public String getFullName() {
         return name + " " + surname;
     }
+    public int sumPoints() {
+        return magicPower + transgression;
+    }
     @Override
     public String toString() {
         return "Имя студента " + getFullName() +

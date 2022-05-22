@@ -58,6 +58,9 @@ public class Slytherin extends HogwartsStudents {
 public int getSum() {
         return cunning + determination + ambition + resourcefulness + lustForPower;
 }
+    public int sumPoints() {
+        return super.sumPoints();
+    }
     @Override
     public String toString() {
         return super.toString() +

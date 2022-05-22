@@ -39,6 +39,9 @@ public class Gryffindor extends HogwartsStudents{
     public int getSum() {
         return nobility + honour + bravery;
     }
+    public int sumPoints() {
+        return super.sumPoints();
+    }
     @Override
     public String toString() {
         return super.toString() +
