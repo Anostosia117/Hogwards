@@ -44,14 +44,13 @@ public class HogwartsStudents {
     public void setTransgression(int transgression) {
         this.transgression = transgression;
     }
-
+    public String getFullName() {
+        return name + " " + surname;
+    }
     @Override
     public String toString() {
-        return "HogwartsStudents{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", magicPower=" + magicPower +
-                ", transgression=" + transgression +
-                '}';
+        return "Имя студента " + getFullName() +
+                ". Магическая сила равна " + magicPower +
+                ". Трансгрессировать может на " + transgression;
     }
 }

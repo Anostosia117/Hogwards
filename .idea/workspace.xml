@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef3bb5e-edbc-4109-a7eb-98961f45c221" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Gryffindor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/HogwartsStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Ravenclaw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Slytherin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Рufflepuff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1ef3bb5e-edbc-4109-a7eb-98961f45c221" name="Changes" comment="факультеты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hogwards/com/company/Gryffindor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hogwards/com/company/Gryffindor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hogwards/com/company/HogwartsStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hogwards/com/company/HogwartsStudents.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hogwards/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hogwards/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hogwards/com/company/Ravenclaw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hogwards/com/company/Ravenclaw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hogwards/com/company/Slytherin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hogwards/com/company/Slytherin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hogwards/com/company/Рufflepuff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hogwards/com/company/Рufflepuff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Gryffindor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Gryffindor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HogwartsStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HogwartsStudents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Ravenclaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Ravenclaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Slytherin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Slytherin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Рufflepuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Рufflepuff.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +82,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653233113699</updated>
-      <workItem from="1653233117960" duration="2509000" />
+      <workItem from="1653233117960" duration="9766000" />
     </task>
+    <task id="LOCAL-00001" summary="факультеты">
+      <created>1653235988381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653235988381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="факультеты" />
+    <option name="LAST_COMMIT_MESSAGE" value="факультеты" />
   </component>
 </project>

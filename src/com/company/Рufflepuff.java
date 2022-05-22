@@ -1,48 +1,48 @@
 package com.company;
 
 public class Рufflepuff extends HogwartsStudents{
-    private String industriousness;
-    private String loyalty;
-    private String honesty;
+    private int industriousness;
+    private int loyalty;
+    private int honesty;
 
-    public Рufflepuff(String name, String surname, int magicPower, int transgression, String industriousness, String loyalty, String honesty ) {
+    public Рufflepuff(String name, String surname, int magicPower, int transgression, int industriousness, int loyalty, int honesty ) {
         super(name, surname, magicPower, transgression);
         this.industriousness = industriousness;
         this.loyalty = loyalty;
         this.honesty = honesty;
     }
 
-    public String getIndustriousness() {
+    public int getIndustriousness() {
         return industriousness;
     }
 
-    public void setIndustriousness(String industriousness) {
+    public void setIndustriousness(int industriousness) {
         this.industriousness = industriousness;
     }
 
-    public String getLoyalty() {
+    public int getLoyalty() {
         return loyalty;
     }
 
-    public void setLoyalty(String loyalty) {
+    public void setLoyalty(int loyalty) {
         this.loyalty = loyalty;
     }
 
-    public String getHonesty() {
+    public int getHonesty() {
         return honesty;
     }
 
-    public void setHonesty(String honesty) {
+    public void setHonesty(int honesty) {
         this.honesty = honesty;
     }
-
+public int getSum() {
+        return industriousness + loyalty + honesty;
+}
     @Override
-    public String toString() {
+    public String  toString() {
         return super.toString() +
-                "Рufflepuff{" +
-                "industriousness='" + industriousness + '\'' +
-                ", loyalty='" + loyalty + '\'' +
-                ", honesty='" + honesty + '\'' +
-                '}';
+                ". Трудолюбие: " + industriousness +
+                ". Верность: " + loyalty +
+                ". Честность: " + honesty;
     }
 }

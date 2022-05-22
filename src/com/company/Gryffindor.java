@@ -1,48 +1,49 @@
 package com.company;
 
 public class Gryffindor extends HogwartsStudents{
-    private String nobility;
-    private String honour;
-    private String bravery;
+    private int nobility;
+    private int honour;
+    private int bravery;
 
-    public Gryffindor(String name, String surname, int magicPower, int transgression, String nobility, String honour, String bravery) {
+    public Gryffindor(String name, String surname, int magicPower, int transgression, int nobility, int honour, int bravery) {
         super(name, surname, magicPower, transgression);
         this.nobility = nobility;
         this.honour = honour;
         this.bravery = bravery;
     }
 
-    public String getNobility() {
+    public int getNobility() {
         return nobility;
     }
 
-    public void setNobility(String nobility) {
+    public void setNobility(int nobility) {
         this.nobility = nobility;
     }
 
-    public String getHonour() {
+    public int getHonour() {
         return honour;
     }
 
-    public void setHonour(String honour) {
+    public void setHonour(int honour) {
         this.honour = honour;
     }
 
-    public String getBravery() {
+    public int getBravery() {
         return bravery;
     }
 
-    public void setBravery(String bravery) {
+    public void setBravery(int bravery) {
         this.bravery = bravery;
     }
 
+    public int getSum() {
+        return nobility + honour + bravery;
+    }
     @Override
     public String toString() {
         return super.toString() +
-                "Gryffindor{" +
-                "nobility='" + nobility + '\'' +
-                ", honour='" + honour + '\'' +
-                ", bravery='" + bravery + '\'' +
-                '}';
+                ". Благородство: " + nobility +
+                ". Честь: " + honour +
+                ". Храбрость: " + bravery;
     }
 }
