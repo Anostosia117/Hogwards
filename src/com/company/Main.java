@@ -83,7 +83,7 @@ public class Main {
     public static void main(String[] args) {
 
         Gryffindor[] gryffindor = new Gryffindor[3];
-        gryffindor[0] = new Gryffindor("Гарри", "Поттер", 78, 44, 90, 55, 97);
+        gryffindor[0] = new Gryffindor("Гарри", "Поттер", 78, 44, 94, 52, 97);
         gryffindor[1] = new Gryffindor("Гермиона", "Грейнджер", 64, 43, 50, 51, 61);
         gryffindor[2] = new Gryffindor("Рон", "Уизли", 48, 29, 13, 63, 77);
         printGryffindorStudents(gryffindor);
